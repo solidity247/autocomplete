@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 300px;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 7px;
+  
+  border-radius: 2px;
+  box-shadow: 2px 3px 4px grey;
+}
+
+li {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li:hover{
+  background-color: rgb(204, 208, 211);
+  font-weight: bolder;
+}
